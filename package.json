@@ -1,0 +1,21 @@
+{
+  "author": "Steve Binder <email@stevebinder.com>",
+  "dependencies": {
+    "react-native": "*"
+  },
+  "description": "Easy React Native storage.",
+  "keywords": [
+    "react",
+    "native",
+    "async",
+    "storage",
+    "localstorage"
+  ],
+  "license": "MIT",
+  "name": "react-native-storer",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/stevebinder/react-native-storer"
+  },
+  "version": "1.0.0"
+}
