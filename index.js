@@ -2,7 +2,11 @@ import { AsyncStorage } from 'react-native';
 
 let isWritingPromise = null;
 
-export const clearStorage = () => AsyncStorage.clear();
+export const clearStorage = async () => {
+  try {
+    await AsyncStorage.clear();
+  } catch (error) {}
+}
 
 const decode = value => {
   if (value === null) {
